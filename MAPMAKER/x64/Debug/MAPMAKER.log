@@ -1,0 +1,125 @@
+﻿  main.cpp
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(95,70): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(96,68): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(98,70): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(99,68): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(139,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(140,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(159,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(160,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(83,24): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(83,18): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(149,23): warning C4551: chiamata di funzione senza elenco di argomenti
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(179,50): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(179,32): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(241,41): warning C4244: '=': conversione da 'T' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(244,41): warning C4244: '=': conversione da 'T' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: float __cdecl sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QEBAMXZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QEAA@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: class sf::Time __cdecl sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QEAA?AVTime@2@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) non risolto nella funzione "void __cdecl selectTypeMove(class sf::View &,class sf::Event,float)" (?selectTypeMove@@YAXAEAVView@sf@@VEvent@2@M@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)" (__imp_?isButtonPressed@Mouse@sf@@SA_NW4Button@12@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(void)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@XZ) non risolto nella funzione "void __cdecl mouseUpdate(class sf::RenderWindow &,class sf::View &)" (?mouseUpdate@@YAXAEAVRenderWindow@sf@@AEAVView@2@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::Window const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@AEBVWindow@2@@Z) non risolto nella funzione "void __cdecl mouseUpdate(class sf::RenderWindow &,class sf::View &)" (?mouseUpdate@@YAXAEAVRenderWindow@sf@@AEAVView@2@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: bool __cdecl sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QEBA_NXZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Window::setFramerateLimit(unsigned int)" (__imp_?setFramerateLimit@Window@sf@@QEAAXI@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) non risolto nella funzione "void __cdecl initTileLv0(int)" (?initTileLv0@@YAXH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Shape::setTexture(class sf::Texture const *,bool)" (__imp_?setTexture@Shape@sf@@QEAAXPEBVTexture@2@_N@Z) non risolto nella funzione "void __cdecl drawTileLv0(class sf::RenderWindow &)" (?drawTileLv0@@YAXAEAVRenderWindow@sf@@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Shape::setTextureRect(class sf::Rect<int> const &)" (__imp_?setTextureRect@Shape@sf@@QEAAXAEBV?$Rect@H@2@@Z) non risolto nella funzione "void __cdecl drawTileLv0(class sf::RenderWindow &)" (?drawTileLv0@@YAXAEAVRenderWindow@sf@@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z) non risolto nella funzione "void __cdecl initTile(int,int,int)" (?initTile@@YAXHHH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Shape::setOutlineColor(class sf::Color const &)" (__imp_?setOutlineColor@Shape@sf@@QEAAXAEBVColor@2@@Z) non risolto nella funzione "void __cdecl initTile(int,int,int)" (?initTile@@YAXHHH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Shape::setOutlineThickness(float)" (__imp_?setOutlineThickness@Shape@sf@@QEAAXM@Z) non risolto nella funzione "void __cdecl initTile(int,int,int)" (?initTile@@YAXHHH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) non risolto nella funzione "void __cdecl `dynamic initializer for 'objectTexture''(void)" (??__EobjectTexture@@YAXXZ)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) non risolto nella funzione "void __cdecl `dynamic atexit destructor for 'objectTexture''(void)" (??__FobjectTexture@@YAXXZ)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Font::Font(void)" (__imp_??0Font@sf@@QEAA@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Font::~Font(void)" (__imp_??1Font@sf@@QEAA@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: bool __cdecl sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z) non risolto nella funzione "public: __cdecl Tile::Tile(void)" (??0Tile@@QEAA@XZ)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z) non risolto nella funzione "void __cdecl initTileLv0(int)" (?initTileLv0@@YAXH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ) non risolto nella funzione "int `public: __cdecl Tile::Tile(void)'::`1'::dtor$0" (?dtor$0@?0???0Tile@@QEAA@XZ@4HA)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::View::View(void)" (__imp_??0View@sf@@QEAA@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::View::setCenter(float,float)" (__imp_?setCenter@View@sf@@QEAAXMM@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::View::setSize(float,float)" (__imp_?setSize@View@sf@@QEAAXMM@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::View::getCenter(void)const " (__imp_?getCenter@View@sf@@QEBAAEBV?$Vector2@M@2@XZ) non risolto nella funzione "void __cdecl updateRenderTiles(class sf::View &,int,int)" (?updateRenderTiles@@YAXAEAVView@sf@@HH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::View::move(float,float)" (__imp_?move@View@sf@@QEAAXMM@Z) non risolto nella funzione "void __cdecl selectTypeMove(class sf::View &,class sf::Event,float)" (?selectTypeMove@@YAXAEAVView@sf@@VEvent@2@M@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::RenderTarget::setView(class sf::View const &)" (__imp_?setView@RenderTarget@sf@@QEAAXAEBVView@2@@Z) non risolto nella funzione "void __cdecl mouseUpdate(class sf::RenderWindow &,class sf::View &)" (?mouseUpdate@@YAXAEAVRenderWindow@sf@@AEAVView@2@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: class sf::View const & __cdecl sf::RenderTarget::getDefaultView(void)const " (__imp_?getDefaultView@RenderTarget@sf@@QEBAAEBVView@2@XZ) non risolto nella funzione "void __cdecl mouseUpdate(class sf::RenderWindow &,class sf::View &)" (?mouseUpdate@@YAXAEAVRenderWindow@sf@@AEAVView@2@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: class sf::Vector2<float> __cdecl sf::RenderTarget::mapPixelToCoords(class sf::Vector2<int> const &)const " (__imp_?mapPixelToCoords@RenderTarget@sf@@QEBA?AV?$Vector2@M@2@AEBV?$Vector2@H@2@@Z) non risolto nella funzione "void __cdecl mouseUpdate(class sf::RenderWindow &,class sf::View &)" (?mouseUpdate@@YAXAEAVRenderWindow@sf@@AEAVView@2@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) non risolto nella funzione "void __cdecl drawTileLv0(class sf::RenderWindow &)" (?drawTileLv0@@YAXAEAVRenderWindow@sf@@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: virtual class sf::Vector2<unsigned int> __cdecl sf::RenderWindow::getSize(void)const " (__imp_?getSize@RenderWindow@sf@@UEBA?AV?$Vector2@I@2@XZ) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ) non risolto nella funzione "void __cdecl `dynamic initializer for 'text''(void)" (??__Etext@@YAXXZ)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ) non risolto nella funzione "void __cdecl `dynamic atexit destructor for 'text''(void)" (??__Ftext@@YAXXZ)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) non risolto nella funzione "void __cdecl drawTileLv0(class sf::RenderWindow &)" (?drawTileLv0@@YAXAEAVRenderWindow@sf@@@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B) non risolto nella funzione "void __cdecl initTile(int,int,int)" (?initTile@@YAXHHH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Color const sf::Color::Red" (__imp_?Red@Color@sf@@2V12@B) non risolto nella funzione main
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Color const sf::Color::Blue" (__imp_?Blue@Color@sf@@2V12@B) non risolto nella funzione "void __cdecl initTile(int,int,int)" (?initTile@@YAXHHH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Color const sf::Color::Cyan" (__imp_?Cyan@Color@sf@@2V12@B) non risolto nella funzione "void __cdecl initTile(int,int,int)" (?initTile@@YAXHHH@Z)
+main.obj : error LNK2019: riferimento al simbolo esterno "__declspec(dllimport) public: static class sf::Color const sf::Color::Transparent" (__imp_?Transparent@Color@sf@@2V12@B) non risolto nella funzione main
+D:\Development\SFML-2.5.1\lib\sfml-graphics-d.lib : warning LNK4272: il tipo 'x86' del computer della libreria è in conflitto con il tipo 'x64' del computer di destinazione
+D:\Development\SFML-2.5.1\lib\sfml-window-d.lib : warning LNK4272: il tipo 'x86' del computer della libreria è in conflitto con il tipo 'x64' del computer di destinazione
+D:\Development\SFML-2.5.1\lib\sfml-system-d.lib : warning LNK4272: il tipo 'x86' del computer della libreria è in conflitto con il tipo 'x64' del computer di destinazione
+D:\Development\SFML-2.5.1\lib\sfml-audio-d.lib : warning LNK4272: il tipo 'x86' del computer della libreria è in conflitto con il tipo 'x64' del computer di destinazione
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\x64\Debug\MAPMAKER.exe : fatal error LNK1120: 56 esterni non risolti
