@@ -1,7 +1,7 @@
 # MapMaker
 MapMaker for all Chimera-Games map 2D
 
-#KEYS
+<h1>KEYS</h1>
 - LEFT MOUSE BTN: put block
 - RIGHT MOUSE BTN remove only block at LV1
 - Enter: insert new id, put numbers in input and press enter
