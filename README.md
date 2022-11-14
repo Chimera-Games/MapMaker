@@ -9,3 +9,4 @@ KEYS
 - RIGHT arrow encrease id
 - WASD for move in the map
 - SHIFT speed move encreased
+- Click on the top-left corner for save the map
