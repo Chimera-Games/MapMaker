@@ -1,9 +1,7 @@
 #pragma once
 
-RectangleShape saveicon;
-
 void saveFile(int max);
-void saveDraw(RenderWindow& window);
+
 
 void loadFromFile(int max);
 
@@ -95,27 +93,3 @@ void saveFile(int max) {
 
 }
 
-void saveDraw(RenderWindow& window) {
-
-	int s = 100;
-	int margin = 50;
-	saveicon.setSize(Vector2f(s, s));
-	saveicon.setPosition(Vector2f(WINX - s - margin, margin));
-	saveicon.setTexture(&saveTexture);
-
-	if (mousePosScreen.x >= saveicon.getPosition().x && mousePosScreen.x <= saveicon.getPosition().x + s) {
-
-		if (mousePosScreen.y >= saveicon.getPosition().y && mousePosScreen.y <= saveicon.getPosition().y + s + margin) {
-			saveicon.setOutlineThickness(3);
-			saveicon.setOutlineColor(Color::Yellow);
-		}
-
-	}
-
-	else {
-		saveicon.setOutlineThickness(0);
-	}
-
-	window.draw(saveicon);
-
-}

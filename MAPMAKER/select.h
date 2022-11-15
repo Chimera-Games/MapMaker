@@ -8,7 +8,7 @@ void renderBox(RenderWindow& window) {
 	int sX = 600, sY = 300;
 
 	RectangleShape backRect(Vector2f(sX, sY));
-	backRect.setPosition(Vector2f(WINX / 2 - sX / 2, WINY / 2 - sY / 2));
+	backRect.setPosition(Vector2f(WINX / 2 - sX, WINY / 2 - sY / 2));
 	backRect.setFillColor(Color::Black);
 	backRect.setOutlineColor(Color::Yellow);
 	backRect.setOutlineThickness(5);
@@ -34,6 +34,32 @@ void renderBox(RenderWindow& window) {
 	text.setCharacterSize(52);
 	text.setPosition(Vector2f(inputBox.getPosition().x + 25, backRect.getPosition().y + 120));
 	window.draw(text);
+
+	//actualid
+	RectangleShape blockContainer(Vector2f(sY, sY));
+	blockContainer.setPosition(Vector2f(backRect.getPosition().x + backRect.getSize().x + 50, backRect.getPosition().y));
+	blockContainer.setFillColor(Color::Black);
+	blockContainer.setOutlineColor(Color::Yellow);
+	blockContainer.setOutlineThickness(3);
+	window.draw(blockContainer);
+
+	int margin = 40;
+	RectangleShape blockPreview(Vector2f(sY - margin, sY - margin));
+	blockPreview.setPosition(Vector2f(blockContainer.getPosition().x + margin / 2, blockContainer.getPosition().y + margin / 2));
+
+	initTile(inputId, 0, 0, true);
+
+	if (inputId >= 500) {
+		blockPreview.setTexture(&objectTexture);
+	}
+
+	else {
+		blockPreview.setTexture(&tileTexture);
+	}
+	blockPreview.setTextureRect(IntRect(64 * prevTile.coordLv0[0] * 5, 64 * prevTile.coordLv0[1] * 5, 64 * 5, 64 * 5));
+	
+	window.draw(blockPreview);
+
 
 }
 

@@ -145,6 +145,7 @@
     <ClInclude Include="file.h" />
     <ClInclude Include="mapGen.h" />
     <ClInclude Include="select.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

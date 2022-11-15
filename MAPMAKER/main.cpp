@@ -48,6 +48,8 @@ struct Tile {
 
 };
 
+Tile prevTile;
+
 
 
 
@@ -71,13 +73,19 @@ int fromX = 0, toX = 0, fromY = 0, toY = 0;
 //input id when in the box
 int inputId = 0;
 
+int actualId = 1;
+short int actualLv = 0;
+
 Texture tileTexture;
 Texture objectTexture;
 Texture saveTexture;
 
+
 #include "mapGen.h"
+#include "UI.h"
 #include "file.h"
 #include "select.h"
+
 
 
 
@@ -129,8 +137,7 @@ int main()
 
     bool isPress = false;
 
-    int actualId = 1;
-    short int actualLv = 0;
+
 
     bool selectId = false;
     while (window.isOpen()) {
@@ -194,36 +201,52 @@ int main()
                 isPress = false;
             }
 
-            if (selectId == true) {
-                changeNum(event.key.code, actualLv);
-            }
+            if (Keyboard::isKeyPressed(Keyboard::Right)) {
 
-            else{
-                if (Keyboard::isKeyPressed(Keyboard::Right)) {
+                if (selectId == false) {
                     actualId++;
-
-                    if (actualLv == 0 && actualId > 499) {
-                        actualId = 499;
-                    }
-
-                    else if (actualLv == 1 && actualId > 999) {
+                    if (actualId > 999) {
                         actualId = 999;
+                    }
+                    else if (actualId >= 500) {
+                        actualLv = 1;
+                    }
+                    else {
+                        actualLv = 0;
                     }
                 }
 
-                else if (Keyboard::isKeyPressed(Keyboard::Left)) {
+                else {
+                    inputId++;
+                }
+
+            }
+
+            else if (Keyboard::isKeyPressed(Keyboard::Left)) {
+                if (selectId == false) {
                     actualId--;
                     if (actualId < 1) {
                         actualId = 1;
                     }
-
-                    else if (actualLv == 1 && actualId < 500) {
-                        actualId = 500;
+                    else if (actualId >= 500) {
+                        actualLv = 1;
+                    }
+                    else {
+                        actualLv = 0;
                     }
                 }
+                else {
+                    inputId--;
+                }
+            }
             
+            if (selectId == true) {
+                changeNum(event.key.code, actualLv);
+            }
 
-                if (Mouse::isButtonPressed) {
+            else {
+
+                if (Mouse::isButtonPressed && mousePosWindow.x <= WINX - 150) {
                     if (Mouse::isButtonPressed(Mouse::Right)) {
                         tileMap[mousePosGrid.y][mousePosGrid.x].idLv1 = 0;
                         initTile(tileMap[mousePosGrid.y][mousePosGrid.x].idLv1, mousePosGrid.y, mousePosGrid.x);
@@ -247,11 +270,11 @@ int main()
                                 initTile(tileMap[mousePosGrid.y][mousePosGrid.x].idLv1, mousePosGrid.y, mousePosGrid.x);
                             }
                         }
-                        
+
                     }
                 }
 
-            } 
+            }
         }
 
         if (selectId == false) {
@@ -297,7 +320,7 @@ int main()
 		
         window.draw(text);
         window.draw(tileStats);
-        saveDraw(window);
+        strumentalBar(window);
 
         if (selectId) {
             renderBox(window);

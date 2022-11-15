@@ -29,5 +29,8 @@
     <ClInclude Include="select.h">
       <Filter>File di risorse</Filter>
     </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
