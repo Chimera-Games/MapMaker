@@ -21,182 +21,36 @@ void initTileLv0(int max) {
 
 void initTile(int id, int y, int x, bool prev) {
 
-	if(prev == false){
-		switch (id)
-		{
-			//blocco transparente
-		case 0:
-			tileMap[y][x].shapeLv0.setFillColor(Color::Blue);
-			tileMap[y][x].shapeLv0.setOutlineThickness(1);
-			tileMap[y][x].shapeLv0.setOutlineColor(Color::Cyan);
-
-			//tileMap[y][x].description = "Blocco Trasparente";
-			break;
-			//blocco erba
-		case 1:
-			tileMap[y][x].coordLv0[0] = 0;
-			tileMap[y][x].coordLv0[1] = 0;
-			//tileMap[y][x].description = "Erba, probabilmente pietro ne aveva bisogno";
-			break;
-			//blocco erba arida
-		case 2:
-			tileMap[y][x].coordLv0[0] = 1;
-			tileMap[y][x].coordLv0[1] = 0;
-			// tileMap[y][x].description = "Erba arida ";
-			break;
-
-		case 3: //erba con fiori
-			tileMap[y][x].coordLv0[0] = 2;
-			tileMap[y][x].coordLv0[1] = 0;
-			// tileMap[y][x].description = "Erba, stranamente, con fiori";
-			break;
-
-			//sabbia con crepe
-		case 4:
-			tileMap[y][x].coordLv0[0] = 3;
-			tileMap[y][x].coordLv0[1] = 0;
-			break;
-
-			//pietra con poche crepe
-		case 5:
-			tileMap[y][x].coordLv0[0] = 4;
-			tileMap[y][x].coordLv0[1] = 0;
-			break;
-
-			//erba con sassi
-		case 6:
-			tileMap[y][x].coordLv0[0] = 0;
-			tileMap[y][x].coordLv0[1] = 1;
-			break;
-
-			//sabbia con sassi
-		case 7:
-			tileMap[y][x].coordLv0[0] = 1;
-			tileMap[y][x].coordLv0[1] = 1;
-			break;
-
-			//sabbia con tante crepe
-		case 8:
-			tileMap[y][x].coordLv0[0] = 2;
-			tileMap[y][x].coordLv0[1] = 1;
-			break;
-
-			//sabbia con tante crepe
-		case 9:
-			tileMap[y][x].coordLv0[0] = 3;
-			tileMap[y][x].coordLv0[1] = 1;
-			break;
-
-			//albero con foglie
-		case 500:
-			tileMap[y][x].coordLv1[0] = 0;
-			tileMap[y][x].coordLv1[1] = 0;
-			break;
-
-			//albero senza foglie
-		case 501:
-			tileMap[y][x].coordLv1[0] = 1;
-			tileMap[y][x].coordLv1[1] = 0;
-			break;
-
-			//albero alto
-		case 502:
-			tileMap[y][x].coordLv1[0] = 2;
-			tileMap[y][x].coordLv1[1] = 0;
-			break;
-
-			//fiume
-		case 503:
-			tileMap[y][x].coordLv1[0] = 3;
-			tileMap[y][x].coordLv1[1] = 0;
-			break;
-
-			//fiume curva DX angolo Sinistra alto
-		case 504:
-			tileMap[y][x].coordLv1[0] = 4;
-			tileMap[y][x].coordLv1[1] = 0;
-			break;
-
-			//fiume curva SX Angolo destra alto
-		case 505:
-			tileMap[y][x].coordLv1[0] = 0;
-			tileMap[y][x].coordLv1[1] = 1;
-			break;
-
-			//fiume curva SX Angolo Sinistra basso
-		case 506:
-			tileMap[y][x].coordLv1[0] = 1;
-			tileMap[y][x].coordLv1[1] = 1;
-			break;
-
-			//fiume curva DX Angolo Sinistra basso
-		case 507:
-			tileMap[y][x].coordLv1[0] = 2;
-			tileMap[y][x].coordLv1[1] = 1;
-			break;
-
-			//fiume verticale
-		case 508:
-			tileMap[y][x].coordLv1[0] = 3;
-			tileMap[y][x].coordLv1[1] = 1;
-			break;
-			//cassa
-		case 509:
-			tileMap[y][x].coordLv1[0] = 4;
-			tileMap[y][x].coordLv1[1] = 1;
-			break;
-
-			//tenda
-		case 510:
-			tileMap[y][x].coordLv1[0] = 0;
-			tileMap[y][x].coordLv1[1] = 2;
-			break;
-
-			//cactus
-		case 511:
-			tileMap[y][x].coordLv1[0] = 1;
-			tileMap[y][x].coordLv1[1] = 2;
-			break;
-
-			//carcassa
-		case 512:
-			tileMap[y][x].coordLv1[0] = 2;
-			tileMap[y][x].coordLv1[1] = 2;
-			break;
-
-			//fungo gigante
-		case 513:
-			tileMap[y][x].coordLv1[0] = 3;
-			tileMap[y][x].coordLv1[1] = 2;
-			break;
-
-			//tre funghi
-		case 514:
-			tileMap[y][x].coordLv1[0] = 4;
-			tileMap[y][x].coordLv1[1] = 2;
-			break;
-
-			//due funghi
-		case 515:
-			tileMap[y][x].coordLv1[0] = 0;
-			tileMap[y][x].coordLv1[1] = 3;
-			break;
-
-		default:
-			break;
-		}
+	if (id <= 0) {
+		tileMap[y][x].shapeLv0.setFillColor(Color::Blue);
+		tileMap[y][x].shapeLv0.setOutlineThickness(1);
+		tileMap[y][x].shapeLv0.setOutlineColor(Color::Cyan);
 	}
 
-	else if(id > 0){
+	else{
 		
+		int tempID = id;
 		if (id >= 500) {
-			id -= 499;
+			tempID -= 499;
 		}
-		int yPrev = (id - 1) / 5;
-		int xPrev = (id - (yPrev * 5)) - 1;
+		int yPrev = (tempID - 1) / 5;
+		int xPrev = (tempID - (yPrev * 5)) - 1;
 
-		prevTile.coordLv0[1] = yPrev;
-		prevTile.coordLv0[0] = xPrev;
+		if (prev == false) {
+			if (id < 500) {
+				tileMap[y][x].coordLv0[0] = xPrev;
+				tileMap[y][x].coordLv0[1] = yPrev;
+			}
+
+			else {
+				tileMap[y][x].coordLv1[0] = xPrev;
+				tileMap[y][x].coordLv1[1] = yPrev;
+			}
+		}
+		else {
+			prevTile.coordLv0[1] = yPrev;
+			prevTile.coordLv0[0] = xPrev;
+		}
 	}
 
 

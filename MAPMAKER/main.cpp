@@ -76,9 +76,16 @@ int inputId = 0;
 int actualId = 1;
 short int actualLv = 0;
 
+//game status
+bool isPress = false;
+bool selectId = false;
+bool dropper = false;
+
 Texture tileTexture;
 Texture objectTexture;
 Texture saveTexture;
+Texture dropperTetxure;
+Texture exitTexture;
 
 
 #include "mapGen.h"
@@ -96,7 +103,7 @@ int main()
     Text tileStats;
     //Init Window
     unsigned short int frame = 144;
-    sf::RenderWindow window(sf::VideoMode(static_cast<unsigned>(WINX), static_cast<unsigned>(WINY)), "Lozen");
+    sf::RenderWindow window(sf::VideoMode(static_cast<unsigned>(WINX), static_cast<unsigned>(WINY)), "MapMaker");
     window.setFramerateLimit(frame);
 	//
 	View view;
@@ -114,6 +121,14 @@ int main()
 	}
 
     if (!saveTexture.loadFromFile("./assets/saveIcon.png")) {
+        cout << "Not loaded" << endl;
+    }
+
+    if (!dropperTetxure.loadFromFile("./assets/dropperIcon.png")) {
+        cout << "Not loaded" << endl;
+    }
+
+    if (!exitTexture.loadFromFile("./assets/exitIcon.png")) {
         cout << "Not loaded" << endl;
     }
 
@@ -135,11 +150,7 @@ int main()
 	tileSelector.setFillColor(Color(255,0,0,125));
 
 
-    bool isPress = false;
 
-
-
-    bool selectId = false;
     while (window.isOpen()) {
 
 
@@ -183,6 +194,9 @@ int main()
                 if (Keyboard::isKeyPressed(Keyboard::Enter)) {
                     if (selectId) {
                         selectId = false;
+                        if (inputId == 0) {
+                            inputId = 1;
+                        }
                         actualId = inputId;
                         inputId = 0;
                     }
@@ -218,6 +232,9 @@ int main()
 
                 else {
                     inputId++;
+                    if (inputId > 999) {
+                        inputId = 999;
+                    }
                 }
 
             }
@@ -237,7 +254,16 @@ int main()
                 }
                 else {
                     inputId--;
+                    if (inputId < 1) {
+                        inputId = 1;
+                    }
                 }
+            }
+
+            else if (Keyboard::isKeyPressed(Keyboard::Escape)) {
+                inputId = 0;
+                dropper = false;
+                selectId = false;
             }
             
             if (selectId == true) {
@@ -255,8 +281,16 @@ int main()
                     else if (Mouse::isButtonPressed(Mouse::Left)) {
 
 
-                        if (mousePosScreen.x >= saveicon.getPosition().x && mousePosScreen.x <= saveicon.getPosition().x + 100 && mousePosScreen.y >= saveicon.getPosition().y && mousePosScreen.y <= saveicon.getPosition().y + 100 + 50) {
-                            saveFile(mapSize);
+                        if (dropper == true) {
+                            if (tileMap[mousePosGrid.y][mousePosGrid.x].idLv1 != 0) {
+                                actualId = tileMap[mousePosGrid.y][mousePosGrid.x].idLv1;
+                                actualLv = 1;
+                            }
+                            else {
+                                actualId = tileMap[mousePosGrid.y][mousePosGrid.x].idLv0;
+                                actualLv = 0;
+                            }
+                            dropper = false;
                         }
 
                         else {
@@ -271,6 +305,25 @@ int main()
                             }
                         }
 
+                    }
+
+                }
+
+                //tools
+                else if(Mouse::isButtonPressed){
+                    if (Mouse::isButtonPressed(Mouse::Left)) {
+
+                        if (mousePosScreen.x >= saveicon.getPosition().x && mousePosScreen.x <= saveicon.getPosition().x + 100 && mousePosScreen.y >= saveicon.getPosition().y && mousePosScreen.y <= saveicon.getPosition().y + 100 + 50) {
+                            saveFile(mapSize);
+                        }
+
+                        else if (mousePosScreen.x >= droppericon.getPosition().x && mousePosScreen.x <= droppericon.getPosition().x + 100 && mousePosScreen.y >= droppericon.getPosition().y && mousePosScreen.y <= droppericon.getPosition().y + 100 + 50) {
+                            dropper = true;
+                        }
+
+                        else if (mousePosScreen.x >= exiticon.getPosition().x && mousePosScreen.x <= exiticon.getPosition().x + 100 && mousePosScreen.y >= exiticon.getPosition().y && mousePosScreen.y <= exiticon.getPosition().y + 100 + 25) {
+                            window.close();
+                        }
                     }
                 }
 

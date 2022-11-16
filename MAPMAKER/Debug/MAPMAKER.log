@@ -1,105 +1,110 @@
 ﻿  main.cpp
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(210,70): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(64,70): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(211,68): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(65,68): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(213,70): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(67,70): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(214,68): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(68,68): warning C4244: '=': conversione da 'T' a 'int'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(254,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(108,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
           with
           [
               T=unsigned int
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(255,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(109,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
           with
           [
               T=unsigned int
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(283,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(137,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
           with
           [
               T=unsigned int
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(284,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\mapGen.h(138,18): warning C4244: '=': conversione da 'float' a 'T'. Possibile perdita di dati.
           with
           [
               T=unsigned int
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(11,33): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(14,33): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(11,30): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(14,30): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(12,32): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(15,32): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(24,31): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(27,31): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(24,28): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(27,28): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(25,51): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(28,51): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(25,41): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(28,41): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(43,44): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(60,44): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(43,41): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(60,41): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(44,70): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(61,62): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(44,47): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(61,47): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(51,57): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(68,57): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(51,41): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(68,41): warning C4244: 'argomento': conversione da 'int' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\UI.h(85,69): warning C4244: 'argomento': conversione da 'double' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
@@ -149,12 +154,13 @@ C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\select.h(47,42): warni
           [
               T=float
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(103,24): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(103,18): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(249,77): warning C4551: chiamata di funzione senza elenco di argomenti
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(301,50): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(301,32): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(371,41): warning C4244: '=': conversione da 'T' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(110,24): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(110,18): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(275,77): warning C4551: chiamata di funzione senza elenco di argomenti
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(313,32): warning C4551: chiamata di funzione senza elenco di argomenti
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(354,50): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(354,32): warning C4244: 'argomento': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(424,41): warning C4244: '=': conversione da 'T' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
@@ -163,7 +169,7 @@ C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(371,41): warn
           [
               T=unsigned int
           ]
-C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(374,41): warning C4244: '=': conversione da 'T' a 'T'. Possibile perdita di dati.
+C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(427,41): warning C4244: '=': conversione da 'T' a 'T'. Possibile perdita di dati.
           with
           [
               T=float
