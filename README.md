@@ -52,17 +52,49 @@ Click on the top-left corner for save the map
 
 ID:
 
-`1` -> Normal grass
+`1` -> Grass 1
 
-`500` -> No Leaves Tree
+`2` -> Grass 2
 
-`501` -> Pine Tree
+`3` -> Flower grass
 
-`502` -> Straight River
+`4` -> Desert 1
 
-`503` -> Tree
+`5` -> Rocks floor
 
+`6` -> Rocks grass
 
+`7` -> Desert 2
+
+`8` -> Desert 3
+
+`9` -> Desert 4
+
+`500` -> Pine Tree
+
+`501` -> No Leaves Tree
+
+`502` -> Tree 
+
+`503` -> Straight River (horizontal)
+
+`504-505-506-507` -> Corner river (down to right - down to right - top to left - top to right)
+
+`508` -> Straight River (vertical)
+
+`509` -> Chest
+
+`510` -> Tend
+
+`511` -> Cactus
+
+`512` -> Bones
+
+`513` -> mushroom (one)
+
+`514` -> mushrooms (tree)
+
+`515` -> mushrooms (two)
 
 
 # ⛏️ Built Using <a name = "built_using"></a>
