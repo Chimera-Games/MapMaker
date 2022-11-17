@@ -64,7 +64,7 @@ void saveDraw(RenderWindow& window) {
 	blockContainer.setOutlineThickness(3);
 	window.draw(blockContainer);
 
-	int marginPrev = 40;
+	int marginPrev = 20;
 	RectangleShape blockPreview(Vector2f(s - marginPrev, s - marginPrev));
 	blockPreview.setPosition(Vector2f(blockContainer.getPosition().x + marginPrev / 2, blockContainer.getPosition().y + marginPrev / 2));
 

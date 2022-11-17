@@ -179,8 +179,8 @@ C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\MAPMAKER\main.cpp(427,41): warn
               T=unsigned int
           ]
   Generazione codice in corso...
-  30 of 315 functions ( 9.5%) were compiled, the rest were copied from previous compilation.
-    4 functions were new in current compilation
-    59 functions had inline decision re-evaluated but remain unchanged
+  3 of 315 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
   Generazione codice terminata
   MAPMAKER.vcxproj -> C:\Users\nicol\Desktop\Game_Jam_Project\MAPMAKER\Release\MAPMAKER.exe

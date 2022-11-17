@@ -21,7 +21,13 @@ void loadFromFile(int max) {
 	while (getline(file, line)) {
 		while (line[index] != 59) {
 			if (line[index] == 32) {
-				idStr = line.substr(index - 1, n);
+
+				if (index - n + 1 == 1) {
+					idStr = line.substr(0, n);
+				}
+				else {
+					idStr = line.substr(index - n + 1, n);
+				}
 				n = 0;
 				if (idStr != ";") {
 					tileMap[y][x].idLv0 = stoi(idStr);
